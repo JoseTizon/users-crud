@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,121,20,1) 0%, rgba(0,212,255,1) 100%);
+  background-attachment: fixed;
+}
+
+.form-card{
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.input-container{
+  margin: 2px;
+  font-weight: 500;
+}
+
+.input-container input{
+  width: 90%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.btn-submit{
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  background-color: rgba(0, 255, 255, 0.315);
+}
+
+.btn-clear{
+  height: 40px;
+  margin: 5px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-edit{
+  background-color: #adff2f;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+.btn-delete{
+  background-color: #ff0000;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+/*Small devices*/
+@media (min-width: 200px) {
+  .user-card{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+  }
+}
+
+/* Medium devices*/
+@media (min-width: 700px) {
+  .user-card{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 45%;
+  }
+}
+
+/* Large devices*/
+@media (min-width: 1200px) {
+  .user-card{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+  }
+}
